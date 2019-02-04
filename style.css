@@ -1,0 +1,305 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #fff7e6;
+}
+
+/* Global */
+.container {
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ ul{
+  margin:0;
+  padding:0;
+  }
+
+
+
+.button_1{
+  height:38px;
+  background: #ffbb33;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+}
+
+
+
+.dark{
+  padding:15px;
+  background: #332700;
+  color: #ffffff;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+.page-title{
+  font-size: 25px;
+  color: #332700;
+}
+
+/* Header */
+header {
+  background: #332700;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom:  #ffbb33 3px solid;
+}
+
+header a{
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float:left;
+  display:inline;
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 0;
+  padding-left: 20px;
+}
+
+header #branding {
+
+  float:left;
+
+}
+
+header #branding h1 {
+  margin:0;
+
+}
+
+header nav {
+  float:right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a {
+  color:#ffbb33;
+  font-weight: bold;
+}
+
+header a:hover{
+  color:#ffbb33;
+  font-weight: bold;
+}
+
+/* showcase */
+#showcase{
+  min-height: 400px;
+  background: url('seaview10.jpg') no-repeat, 0 -400px;
+  background-size:cover;
+  text-align: center;
+  color: #ffffff;
+}
+
+#showcase h2 {
+  margin-top: 150px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size: 20px;
+
+}
+
+/* subscribe */
+#subscribe{
+  padding: 0px;
+  color: #ffffff;
+  background: #332700;
+}
+
+#subscribe h2 {
+  float:left;
+}
+
+#subscribe p{
+  float:center;
+}
+
+#subscribe form{
+  float:right;
+  margin-top:15px;
+}
+
+#subscribe input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* boxes */
+
+#boxes{
+  margin-top: 20px;
+
+}
+
+#boxes .box{
+  float:left;
+  font-size: 14px;
+  text-align: center;
+  width:30%;
+  padding:10px;
+
+}
+
+#boxes .box img{
+
+  width:90px;
+
+}
+#boxes a {
+  text-decoration: none;
+  color: #332700;
+
+}
+
+
+/* sidebar */
+aside#sidebar{
+  float:right;
+  width:30%;
+  margin-top:10px;
+  margin-bottom:30px;
+
+}
+
+aside#sidebar .enquiry input, aside#sidebar .enquiry textarea{
+  width:90%;
+  padding: 5px;
+}
+
+aside#sidebar li{
+  list-style: none;
+  margin-left: 20px;
+
+}
+
+aside#sidebar a{
+  text-decoration:none;
+  color: #ffffff;
+}
+/* main-col   */
+article#main-col{
+  float:left;
+  width:65%;
+
+}
+
+/* FAQ */
+ul#events li{
+  list-style:none;
+  padding:20px;
+  border: #ffbb33 solid 1px;
+  background-color: #ffeecc;
+  margin-bottom: 5px;
+}
+
+ul#events a{
+  text-decoration: none;
+  color: #332700;
+}
+
+/* gallery */
+
+#gallery table {
+  width: 60%;
+  align-self: center;
+
+}
+
+#gallery tr th {
+  font-size: 1.5em;
+  padding: 20px;
+}
+
+#gallery tr img{
+  width:100px;
+  height:90px;
+
+}
+
+
+/*rooms*/
+table#rooms{
+margin-top: 30px;
+  width:60%;
+  float:left;
+  border:#ffbb33 solid 1px;
+  margin-bottom: 5px;
+  background:#ffefcc;
+
+}
+
+table#rooms td{
+  text-align: center;
+  padding-right:30px;
+
+}
+table#rooms img{
+  width: 100px;
+  height: 95px;
+
+}
+
+table#rooms a {
+  text-decoration: none;
+  color: #332700;
+
+}
+
+/*booking*/
+
+#booking form{
+  float:left;
+}
+
+#booking input[type=text]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+
+}
+#booking input[type=email]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#booking p {
+  border: 5px 5px 5px 5px;
+}
+
+#booking textarea {
+  width:450px;
+  height:200px;
+  margin: 8px 0;
+  padding: 12px 20px;
+  box-sizing: border-box;
+}
+
+
+footer {
+  padding: 15px;
+  color:#ffffff;
+  background-color: #ffbb33;
+  text-align: center;
+  }

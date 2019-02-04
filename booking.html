@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Boutique Luxury Bed and Breakfast, Malahide, Dublin" />
+    <meta name="keywords" content="B&B, Accommodation, Sea, Boutique, Bed and Breakfast, Fresh Food, Homemade" />
+    <title>Seahaven B&B | Booking</title>
+    <link rel="stylesheet" href="style.css" />
+    <!--Java script to confirm Booking has been accepted-->
+    <script>function myBooking(){
+      document.getElementById("accept").innerHTML= "Thank you for your booking. We look forward to seeing you.";
+    }</script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div id="branding">
+          <h1><span class="highlight">Seahaven</span> Bed & Breakfast</h1>
+        </div>
+        <nav>
+          <ul>
+            <li ><a href="index.html">Home</a></li>
+            <li ><a href="rooms.html">Rooms & Rates</a></li>
+            <li class="current"><a href="booking.html">Make a Booking</a></li>
+            <li ><a href="faq.html">FAQ</a></li>
+            <li ><a href="contactus.html">Contact Us</a></li>
+            <li ><a href="about.html">about Us</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <section id="subscribe">
+      <div class="container">
+        <h2>Subscribe to receive our Special Offers</h2>
+      <form>
+          <input type="email" placeholder="Enter Email Address" />
+          <button type="submit" class="button_1">Subscribe</button>
+        </form>
+      </div>
+    </section>
+    <section id="booking">
+      <div class="container">
+          <h2 class="page-title">Make a Booking</h2>
+            <form>
+              <div>
+                <label>First Name</label>
+                <input type="text" placeholder="First Name" />
+            </div>
+            <div>
+              <label>Last Name</label>
+              <input type="text" placeholder="Last Name" />
+            </div>
+            <div>
+              <label>E-Mail Address</label>
+              <input type="email" placeholder="E-Mail Address" />
+              </div>
+            <div>
+              <label>Number of Guests</label>
+              <Select Name="Number of Guests">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+              </Select>
+            </div>
+            <div>
+            <label>Number of Rooms</label>
+              <Select Name="Number of People">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="4">4</option>
+                </Select>
+            </div>
+            <div>
+            <label>Check-in Date</label>
+              <input type="date" name="Check-in" />
+            </div>
+            <div>
+            <label>Check-out Date</label>
+              <input type="date" name="Check-out" />
+            </div>
+            <div>
+            <label>Let us know if you have any special requirements</label><br>
+              <textarea placeholder="Special Requirements"></textarea>
+            </div>
+            <div>
+              <button type="button" class="button_1" onclick="myBooking()" >Submit</button>
+              <p id ="accept">  </p>
+            </div>
+            </form>
+        <aside id="sidebar">
+          <div class="dark">
+            <h3>Have you signed up to our Special Offers</h3>
+            <p>Sign up to receive our Special Offers which also coincide with major events in Dublin.</p><p>So do take advantage of these exceptional good offers with no hidden charges.</p>
+          </div>
+        </aside>
+    </div>
+</section>
+    <footer>
+      <div class="container">
+        <p>Seahaven, Coast Road, Malahide, Co. Dublin. Landline: 00 353 1 123456 | Mobile: 00 353 87 123456  Copyright &copy; 2018</p>
+      </div>
+
+    </footer>
+  </body>
+</html>

@@ -1,3 +1,5 @@
-FROM nginx:alpine
+FROM tomcat:8.0-alpine
 LABEL maintainer="tricia_tobin@hotmail.com"
-COPY target/*.war /usr/share/nginx/html
+ADD sample.war /usr/local/tomcat/webapps/
+EXPOSE 8082
+CMD ["catalina.sh", "run"]
